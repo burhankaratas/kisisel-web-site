@@ -1,0 +1,56 @@
+/* Genel kaydırma çubuğu özelleştirmesi */
+/* Webkit tabanlı tarayıcılar (Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 10px; /* Çubuğun genişliği */
+  }
+  
+  /* Kaydırma çubuğu arka planı */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Kaydırma çubuğu dolgusu */
+  ::-webkit-scrollbar-thumb {
+    background: yellowgreen;
+  }
+  
+
+  
+
+
+.custom-line {
+    border: none;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.2));
+  }
+
+  ::selection {
+    background-color: yellow; /* Arka plan rengini sarı yapar */
+    color: black; /* Metin rengini siyah yapar */
+  }
+
+
+  .fa-brands {
+    text-decoration: none;
+  }
+
+  .fa-brands:hover {
+    color: white;
+  }
+
+  #scrollTopButton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    border: none;
+    background-color: black;
+  }
+  
+.fa-file-pdf:hover {
+    color: white;
+  }
+
+.social_media:hover {
+    color: yellow;
+}
